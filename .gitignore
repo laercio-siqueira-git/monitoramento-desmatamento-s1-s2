@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Arquivos locais e configuração do projeto Cloud
+.env
+
+# Pacote gerado pelo notebook (os arquivos soltos entram no repositório)
+resultados_piloto.zip
+
+# Sistema
+.DS_Store
+Thumbs.db
