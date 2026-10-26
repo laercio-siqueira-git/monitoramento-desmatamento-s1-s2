@@ -1,0 +1,69 @@
+{
+  "area_piloto": "Novo Progresso (PA)",
+  "centro_lon_lat": [
+    -55.4,
+    -7.15
+  ],
+  "lado_graus": 0.25,
+  "crs": "EPSG:32721",
+  "ano_rotulo": 2023,
+  "janela_antes": [
+    "2022-06-01",
+    "2022-10-31"
+  ],
+  "janela_depois": [
+    "2023-06-01",
+    "2023-10-31"
+  ],
+  "imagens": {
+    "S1 T0": 24,
+    "S1 T1": 25,
+    "S2 T0": 60,
+    "S2 T1": 60
+  },
+  "orbita_s1": "DESCENDING",
+  "pior_mes_optico": "Fev",
+  "cobertura_optica_pior_mes_pct": 18.4,
+  "cobertura_sar_media_pct": 100.0,
+  "metricas_teste": {
+    "Só óptico (S2)": {
+      "precisao": 0.3069,
+      "recall": 0.657,
+      "f1": 0.4184,
+      "cobertura": 0.9997,
+      "vp": 1813.5569,
+      "fp": 4095.7804,
+      "fn": 947.0078,
+      "vn": 18992.8118,
+      "desmat_referencia_ha": 248.4508,
+      "desmat_detectado_ha": 531.8404
+    },
+    "Só SAR (S1)": {
+      "precisao": 0.2435,
+      "recall": 0.6373,
+      "f1": 0.3524,
+      "cobertura": 0.9997,
+      "vp": 1759.3176,
+      "fp": 5465.4784,
+      "fn": 1001.2471,
+      "vn": 17623.1137,
+      "desmat_referencia_ha": 248.4508,
+      "desmat_detectado_ha": 650.2316
+    },
+    "Fusão S1+S2": {
+      "precisao": 0.3172,
+      "recall": 0.6967,
+      "f1": 0.4359,
+      "cobertura": 0.9997,
+      "vp": 1923.3176,
+      "fp": 4141.0314,
+      "fn": 837.2471,
+      "vn": 18947.5608,
+      "desmat_referencia_ha": 248.4508,
+      "desmat_detectado_ha": 545.7914
+    }
+  },
+  "alertas_total": 127,
+  "alertas_area_ha": 1164.9,
+  "alertas_teste_confirmados_pct": 40.0
+}
